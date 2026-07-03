@@ -11,7 +11,7 @@ Introduction
 About this document
 ===================
 
-Creating a website in multiple languages with TYPO3 can be done in a
+TESTCreating a website in multiple languages with TYPO3 can be done in a
 variety of ways - as usual. Unfortunately, all the options are hard to
 understand unless described in a context where used. In addition, even
 if you understand the context you might like to get some suggestions
