@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   backport:
-    uses: sarahmccarthy123/.github/.github/workflows/resuable-sarah-backport.yml@47063497b05669623fb6752f64641c640770b926
+    uses: sarahmccarthy123/.github/.github/workflows/reusable-sarah-backport.yml@47063497b05669623fb6752f64641c640770b926
     with:
       label_pattern: "^backport (.+)$"
     #secrets:
