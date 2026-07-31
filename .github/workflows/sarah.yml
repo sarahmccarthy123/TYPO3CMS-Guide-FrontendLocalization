@@ -1,0 +1,16 @@
+name: Sarah Simple Workflow
+on:
+  workflow_dispatch:
+
+
+jobs:
+  tests:
+    name: sarahtestmkdir
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1.1.0
+
+      - name: Test if a directory can be created
+        run: |
+          mkdir -p Documentation-GENERATED-temp
