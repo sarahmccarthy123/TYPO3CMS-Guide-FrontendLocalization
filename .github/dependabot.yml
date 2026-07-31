@@ -14,8 +14,8 @@ updates:
     directory: "/"
     target-branch: "13.4"
     schedule:
-      interval: weekly
-      day: monday
+      interval: daily
+      #day: monday
     open-pull-requests-limit: 5
 
   - package-ecosystem: "github-actions"
