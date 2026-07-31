@@ -22,6 +22,6 @@ updates:
     directory: "/"
     target-branch: "14.3"
     schedule:
-      interval: weekly
-      day: monday
+      interval: daily
+      #day: monday
     open-pull-requests-limit: 5
